@@ -19,11 +19,6 @@ $ composer install
 ```
   - You are good to go!
 
-Every time you create new model file run the following command. If not, you will see class not found exception when you try to access your model file.
-```sh
-$ composer dump-autoload
-```
-
 ## Getting Started
   - Login URL - http://[address]/login
   - Admin Username: admin  | Password: admin123
@@ -38,6 +33,12 @@ $ composer dump-autoload
   - Maintained PHPDoc
   - Tested codes using PHP Codesniffer for PSR-2
   - Responsive accross all popular screen sizes
+
+### Development
+Every time you create new model file run the following command. If not, you will see class not found exception when you try to access your model file.
+```sh
+$ composer dump-autoload
+```
 
 ### Todos
 
