@@ -14,9 +14,9 @@ This is a simple Shop Application made with Codeigniter 3 and Bootstrap 4. Featu
   - Set base url to this variable $config['base_url']- application/config/config.php
   - Import DB Schema - http://[address]/migrate/do_migration
   - Install dependencies to root by the following command
-```sh
-$ composer install
-```
+    ```sh
+    $ composer install
+    ```
   - You are good to go!
 
 ## Getting Started
