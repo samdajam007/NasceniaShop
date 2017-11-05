@@ -43,7 +43,7 @@
                         <div class="form-group">
                             <label>Product Category</label>
                             <select multiple class="form-control" name="pro_cate[]">
-                                <option value="0">No Category</option>
+                                <option value="0" selected>No Category</option>
                                 <?php $cat_list = category_list();
                                 foreach ($cat_list as $cat_item):?>
                                     <option
