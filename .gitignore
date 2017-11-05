@@ -29,3 +29,9 @@ user_guide_src/cilexer/pycilexer.egg-info/*
 *.sublime-project
 /tests/tests/
 /tests/results/
+application/config/config.php
+application/config/config.php
+upload/duplexstaircasewithrailing-3-500x500.jpg
+upload/eclectic-staircase1.jpg
+upload/Park-Laurel-Penthouse-10.jpg
+application/config/config.php

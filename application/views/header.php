@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>NasceniaProject - Shop Homepage</title>
+    <title>NasceniaShop - Shop Homepage</title>
 
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="<?php echo base_url('asset/css/bootstrap.min.css'); ?>">
