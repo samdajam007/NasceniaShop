@@ -19,6 +19,10 @@ $ composer install
 ```
   - You are good to go!
 
+Every time you create new model file run the following command. If not, you will see class not found exception when you try to access your model file.
+```sh
+$ composer dump-autoload
+```
 
 ## Getting Started
   - Login URL - http://[address]/login
