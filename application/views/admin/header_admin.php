@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <title>NasceniaShop - Dashboard</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="<?php echo base_url('asset/css/bootstrap_admin.min.css'); ?>" rel="stylesheet">
@@ -51,13 +51,13 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="<?php echo base_url('admin')?>">Nascenia Project Admin Panel</a>
+            <a class="navbar-brand" href="<?php echo base_url('admin')?>">NasceniaShop Dashboard</a>
         </div>
         <!-- /.navbar-header -->
 
         <ul class="nav navbar-top-links navbar-right">
             <li>
-                <a href="<?php echo base_url('/')?>"><i class="fa fa-home"></i> Nascenia Project</a>
+                <a href="<?php echo base_url('/')?>"><i class="fa fa-home"></i> NasceniaShop</a>
             </li>
             <li>
                 <a href="<?php echo base_url('login/logout')?>">Logout</a>
