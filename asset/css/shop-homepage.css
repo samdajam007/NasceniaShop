@@ -1,0 +1,99 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+body {
+    padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+
+.slider_img {
+    width: auto;
+    height: 500px;
+    max-height: 500px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .slider_img {
+        width: auto;
+        height: 300px;
+        max-height: 300px;
+        margin: 0 auto;
+        object-fit: cover;
+    }
+}
+
+.carousel-indicators .active {
+    background-color: #ff0000;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E")
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff0000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E")
+}
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 20px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+#carouselExampleIndicators {
+    background-color: #f7f7f7;
+    padding: 30px 0 40px 0;
+}
+
+.carousel-indicators li {
+    background-color: rgba(220, 53, 69, 0.27);
+    height: 4px;
+}
+
+.pro_view_list_img {
+    max-height: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.radio-inline {
+    margin: 0 5px;
+}
+.alert-hide {
+    display: none;
+}
+
+/* Navigation Menu */
+#sidebar {
+    min-width: 130px;
+    border-radius: 0 0 10px 10px;
+    padding-bottom: 10px;
+}
+.nav-link[data-toggle].collapsed:after {
+    content: "\f0d7";
+    font-family: FontAwesome;
+    padding-left: 7px;
+}
+.nav-link[data-toggle]:not(.collapsed):after {
+    content: "\f0d8";
+    font-family: FontAwesome;
+    padding-left: 7px;
+}
+.bg-faded {
+    background-color: #f7f7f7;
+}
+@media (min-width: 768px) {
+    .hidden-md-up {
+        display: none !important;
+    }
+}
+/* Navigation Menu - END */
