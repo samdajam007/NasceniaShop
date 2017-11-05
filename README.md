@@ -39,7 +39,7 @@ $ composer install
 
  - User Registration
  - Templating for the views
- - Multi-level category list for the sidebar (currently supports 2nd level)
+ - Multi-level category list for the sidebar (currently supports upto 2nd level)
  - Rating star half icon
  
 License
