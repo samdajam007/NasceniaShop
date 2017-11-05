@@ -74,11 +74,11 @@ $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
-	'dsn'	=> 'mysql:host=localhost;dbname=nasceniaproject_db',
+	'dsn'	=> 'mysql:host=localhost;dbname=nasceniaproject_db_test',
 	'hostname' => 'localhost',
 	'username' => 'root',
 	'password' => '',
-	'database' => 'nasceniaproject_db',
+	'database' => 'nasceniaproject_db_test',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
