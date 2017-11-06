@@ -3,7 +3,7 @@
 /**
  * Class MY_Controller
  */
-class MY_Controller extends CI_Controller
+class My_Controller extends CI_Controller
 {
 
     protected $access = "*";
@@ -61,7 +61,7 @@ class MY_Controller extends CI_Controller
 /**
  * Class Admin_Controller
  */
-class Admin_Controller extends MY_Controller
+class Admin_Controller extends My_Controller
 {
     protected $access = "admin";
 
@@ -77,7 +77,7 @@ class Admin_Controller extends MY_Controller
 /**
  * Class Public_Controller
  */
-class Public_Controller extends MY_Controller
+class Public_Controller extends My_Controller
 {
     protected $access = '*';
 
@@ -97,7 +97,7 @@ class Public_Controller extends MY_Controller
 /**
  * Class Login_Controller
  */
-class Login_Controller extends MY_Controller
+class Login_Controller extends My_Controller
 {
     protected $access = "*";
 
