@@ -47,6 +47,7 @@ $ composer dump-autoload
  - Multi-level category list for the sidebar (currently supports upto 2nd level)
  - Rating star half icon
  - Pretty URLs for category view and product views
+ - Product description excerpt for listings
  
 License
 ----
